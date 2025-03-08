@@ -1,29 +1,29 @@
 proxy-providers:
   ProviderALL:
-    url: http://localhost:18989/all.yaml
+    url: https://github.com/zhouzhou12203/picx-images-hosting/raw/refs/heads/master/all.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/ALL.yaml
   ProviderOpenai:
-    url: http://localhost:18989/openai.yaml
+    url: https://github.com/zhouzhou12203/picx-images-hosting/raw/refs/heads/master/openai.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/Openai.yaml
   ProviderYoutube:
-    url: https://localhost:18989/youtube.yaml
+    url: https://github.com/zhouzhou12203/picx-images-hosting/raw/refs/heads/master/youtube.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/Youtube.yaml
   ProviderNetflix:
-    url: https://localhost:18989/netfilx.yaml
+    url: https://github.com/zhouzhou12203/picx-images-hosting/raw/refs/heads/master/netfilx.yaml
     type: http
     proxy: DIRECT
     path: ./proxy_provider/Netflix.yaml
   ProviderDisney:
-    url: https://localhost:18989/disney.yaml
+    url: https://github.com/zhouzhou12203/picx-images-hosting/raw/refs/heads/master/disney.yaml
     type: http
     interval: 600
     proxy: DIRECT
