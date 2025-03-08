@@ -1,0 +1,37 @@
+proxies:
+    - name: "\U0001F1F8\U0001F1E8 SC 001 | ⬇️ 8.56 MB/s"
+      network: ws
+      port: 8880
+      server: 154.83.2.228
+      servername: redw.pooriam.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 8.27 MB/s"
+      network: ws
+      port: 2052
+      server: 45.149.12.183
+      servername: redw.pooriam.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 0 KB/s"
+      password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
+      port: 13008
+      server: naiu-hk.05vr9nyqg5.download
+      skip-cert-verify: false
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan

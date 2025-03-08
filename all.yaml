@@ -1,0 +1,59 @@
+proxies:
+    - name: "\U0001F1F8\U0001F1E8 SC 001 | ⬇️ 8.56 MB/s"
+      network: ws
+      port: 8880
+      server: 154.83.2.228
+      servername: redw.pooriam.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 8.27 MB/s"
+      network: ws
+      port: 2052
+      server: 45.149.12.183
+      servername: redw.pooriam.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 6.97 MB/s"
+      obfs: plain
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      server: 35.93.142.194
+      type: ssr
+    - name: "\U0001F1F7\U0001F1FA RU 008 | ⬇️ 12.58 MB/s"
+      network: ws
+      port: 8080
+      server: 185.174.138.197
+      servername: a.xn--i-sx6a60i.us.kg.
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.xn--i-sx6a60i.us.kg.
+        path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 8.84 MB/s"
+      obfs: plain
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      server: 35.95.37.205
+      type: ssr

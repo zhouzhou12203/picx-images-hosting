@@ -1,0 +1,79 @@
+proxies:
+    - name: "\U0001F1F8\U0001F1E8 SC 001 | ⬇️ 8.56 MB/s"
+      network: ws
+      port: 8880
+      server: 154.83.2.228
+      servername: redw.pooriam.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 0 KB/s"
+      password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
+      port: 44014
+      server: 120.198.71.219
+      skip-cert-verify: false
+      sni: www.tmall.com
+      tfo: false
+      tls: false
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F3 UN 005 | ⬇️ 0 KB/s"
+      network: ws
+      port: 80
+      server: www.aetv.com
+      tls: false
+      type: vmess
+      uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+      ws-opts:
+        headers:
+            Host: amd.al
+        path: /XESALISTHEBEST?ed=2048
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 6.97 MB/s"
+      obfs: plain
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      server: 35.93.142.194
+      type: ssr
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F3 UN 007 | ⬇️ 0 KB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.181.167.38
+      tfo: false
+      type: ss
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 0 KB/s"
+      network: ws
+      port: 80
+      server: 151.101.66.168
+      type: vmess
+      uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+      ws-opts:
+        headers:
+            Host: amd.al
+        path: /XESALISTHEBEST?ed=2048
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 8.84 MB/s"
+      obfs: plain
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      server: 35.95.37.205
+      type: ssr
