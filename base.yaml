@@ -1,29 +1,29 @@
 proxy-providers:
   ProviderALL:
-    url: http://zhou12203.icu:18989/all.yaml
+    url: http://ddns.zhou12203.icu:18989/all.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/ALL.yaml
   ProviderOpenai:
-    url: http://10.180.77.85:18989/openai.yaml
+    url: http://ddns.zhou12203.icu:18989/openai.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/Openai.yaml
   ProviderYoutube:
-    url: http://10.180.77.85:18989/youtube.yaml
+    url: http://ddns.zhou12203.icu:18989/youtube.yaml
     type: http
     interval: 600
     proxy: DIRECT
     path: ./proxy_provider/Youtube.yaml
   ProviderNetflix:
-    url: http://10.180.77.85:18989/netfilx.yaml
+    url: http://ddns.zhou12203.icu:18989/netfilx.yaml
     type: http
     proxy: DIRECT
     path: ./proxy_provider/Netflix.yaml
   ProviderDisney:
-    url: http://10.180.77.85:18989/disney.yaml
+    url: http://ddns.zhou12203.icu:18989/disney.yaml
     type: http
     interval: 600
     proxy: DIRECT
